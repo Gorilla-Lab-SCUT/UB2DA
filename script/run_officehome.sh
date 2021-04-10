@@ -1,0 +1,39 @@
+#!/bin/sh
+python train.py --exp_name officehome-run1 --config ./configs/officehome-train-config.yaml --source ./txt/officehome/source_Real_World.txt --target ./txt/officehome/target_Art.txt --gpu $1
+python train.py --exp_name officehome-run1 --config ./configs/officehome-train-config.yaml --source ./txt/officehome/source_Real_World.txt --target ./txt/officehome/target_Clipart.txt --gpu $1
+python train.py --exp_name officehome-run1 --config ./configs/officehome-train-config.yaml --source ./txt/officehome/source_Real_World.txt --target ./txt/officehome/target_Product.txt --gpu $1
+python train.py --exp_name officehome-run1 --config ./configs/officehome-train-config.yaml --source ./txt/officehome/source_Product.txt --target ./txt/officehome/target_Real_World.txt --gpu $1
+python train.py --exp_name officehome-run1 --config ./configs/officehome-train-config.yaml --source ./txt/officehome/source_Product.txt --target ./txt/officehome/target_Art.txt --gpu $1
+python train.py --exp_name officehome-run1 --config ./configs/officehome-train-config.yaml --source ./txt/officehome/source_Product.txt --target ./txt/officehome/target_Clipart.txt --gpu $1
+python train.py --exp_name officehome-run1 --config ./configs/officehome-train-config.yaml --source ./txt/officehome/source_Art.txt --target ./txt/officehome/target_Clipart.txt --gpu $1
+python train.py --exp_name officehome-run1 --config ./configs/officehome-train-config.yaml --source ./txt/officehome/source_Art.txt --target ./txt/officehome/target_Product.txt --gpu $1
+python train.py --exp_name officehome-run1 --config ./configs/officehome-train-config.yaml --source ./txt/officehome/source_Art.txt --target ./txt/officehome/target_Real_World.txt --gpu $1
+python train.py --exp_name officehome-run1 --config ./configs/officehome-train-config.yaml --source ./txt/officehome/source_Clipart.txt --target ./txt/officehome/target_Real_World.txt --gpu $1
+python train.py --exp_name officehome-run1 --config ./configs/officehome-train-config.yaml --source ./txt/officehome/source_Clipart.txt --target ./txt/officehome/target_Product.txt --gpu $1
+python train.py --exp_name officehome-run1 --config ./configs/officehome-train-config.yaml --source ./txt/officehome/source_Clipart.txt --target ./txt/officehome/target_Art.txt --gpu $1
+
+python train.py --exp_name officehome-run2 --config ./configs/officehome-train-config.yaml --source ./txt/officehome/source_Real_World.txt --target ./txt/officehome/target_Art.txt --gpu $1
+python train.py --exp_name officehome-run2 --config ./configs/officehome-train-config.yaml --source ./txt/officehome/source_Real_World.txt --target ./txt/officehome/target_Clipart.txt --gpu $1
+python train.py --exp_name officehome-run2 --config ./configs/officehome-train-config.yaml --source ./txt/officehome/source_Real_World.txt --target ./txt/officehome/target_Product.txt --gpu $1
+python train.py --exp_name officehome-run2 --config ./configs/officehome-train-config.yaml --source ./txt/officehome/source_Product.txt --target ./txt/officehome/target_Real_World.txt --gpu $1
+python train.py --exp_name officehome-run2 --config ./configs/officehome-train-config.yaml --source ./txt/officehome/source_Product.txt --target ./txt/officehome/target_Art.txt --gpu $1
+python train.py --exp_name officehome-run2 --config ./configs/officehome-train-config.yaml --source ./txt/officehome/source_Product.txt --target ./txt/officehome/target_Clipart.txt --gpu $1
+python train.py --exp_name officehome-run2 --config ./configs/officehome-train-config.yaml --source ./txt/officehome/source_Art.txt --target ./txt/officehome/target_Clipart.txt --gpu $1
+python train.py --exp_name officehome-run2 --config ./configs/officehome-train-config.yaml --source ./txt/officehome/source_Art.txt --target ./txt/officehome/target_Product.txt --gpu $1
+python train.py --exp_name officehome-run2 --config ./configs/officehome-train-config.yaml --source ./txt/officehome/source_Art.txt --target ./txt/officehome/target_Real_World.txt --gpu $1
+python train.py --exp_name officehome-run2 --config ./configs/officehome-train-config.yaml --source ./txt/officehome/source_Clipart.txt --target ./txt/officehome/target_Real_World.txt --gpu $1
+python train.py --exp_name officehome-run2 --config ./configs/officehome-train-config.yaml --source ./txt/officehome/source_Clipart.txt --target ./txt/officehome/target_Product.txt --gpu $1
+python train.py --exp_name officehome-run2 --config ./configs/officehome-train-config.yaml --source ./txt/officehome/source_Clipart.txt --target ./txt/officehome/target_Art.txt --gpu $1
+
+python train.py --exp_name officehome-run3 --config ./configs/officehome-train-config.yaml --source ./txt/officehome/source_Real_World.txt --target ./txt/officehome/target_Art.txt --gpu $1
+python train.py --exp_name officehome-run3 --config ./configs/officehome-train-config.yaml --source ./txt/officehome/source_Real_World.txt --target ./txt/officehome/target_Clipart.txt --gpu $1
+python train.py --exp_name officehome-run3 --config ./configs/officehome-train-config.yaml --source ./txt/officehome/source_Real_World.txt --target ./txt/officehome/target_Product.txt --gpu $1
+python train.py --exp_name officehome-run3 --config ./configs/officehome-train-config.yaml --source ./txt/officehome/source_Product.txt --target ./txt/officehome/target_Real_World.txt --gpu $1
+python train.py --exp_name officehome-run3 --config ./configs/officehome-train-config.yaml --source ./txt/officehome/source_Product.txt --target ./txt/officehome/target_Art.txt --gpu $1
+python train.py --exp_name officehome-run3 --config ./configs/officehome-train-config.yaml --source ./txt/officehome/source_Product.txt --target ./txt/officehome/target_Clipart.txt --gpu $1
+python train.py --exp_name officehome-run3 --config ./configs/officehome-train-config.yaml --source ./txt/officehome/source_Art.txt --target ./txt/officehome/target_Clipart.txt --gpu $1
+python train.py --exp_name officehome-run3 --config ./configs/officehome-train-config.yaml --source ./txt/officehome/source_Art.txt --target ./txt/officehome/target_Product.txt --gpu $1
+python train.py --exp_name officehome-run3 --config ./configs/officehome-train-config.yaml --source ./txt/officehome/source_Art.txt --target ./txt/officehome/target_Real_World.txt --gpu $1
+python train.py --exp_name officehome-run3 --config ./configs/officehome-train-config.yaml --source ./txt/officehome/source_Clipart.txt --target ./txt/officehome/target_Real_World.txt --gpu $1
+python train.py --exp_name officehome-run3 --config ./configs/officehome-train-config.yaml --source ./txt/officehome/source_Clipart.txt --target ./txt/officehome/target_Product.txt --gpu $1
+python train.py --exp_name officehome-run3 --config ./configs/officehome-train-config.yaml --source ./txt/officehome/source_Clipart.txt --target ./txt/officehome/target_Art.txt --gpu $1

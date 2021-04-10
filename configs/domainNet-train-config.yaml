@@ -1,0 +1,24 @@
+data:
+  dataset:
+    name: domainNet
+  dataloader:
+    class_balance: true #
+    data_workers: 3 # how many workers to use for train dataloaders
+    batch_size: 128 # batch_size for source domain and target domain respectively
+model:
+  base_model: resnet50 # choices=['resnet50', 'resnet34', 'resnet18']
+  cluster_num: 1000
+  temp: 0.05
+train:
+  min_epoch: 100 # 100
+  lr: 0.01 # learning rate for new layers. learning rate for finetune is 1/10 of lr
+  multi: 0.1
+  weight_decay: 0.0005
+  sgd_momentum: 0.9
+  momentum: 0.00
+  beta: 0.05
+  eta: 0.05
+  log_interval: 1
+  margin: 0.5
+test:
+  test_interval: 10 # interval of two continuous test phase
