@@ -57,7 +57,8 @@ sh script/run_domainNet.sh $gpu-id
 '''
 
 
-### Reference
+## Reference
+
 This repository is contributed by [Bin Deng](https://bindeng.xyz/).
 If you consider using this code or its derivatives, please consider citing:
 
