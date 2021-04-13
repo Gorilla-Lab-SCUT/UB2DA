@@ -1,6 +1,6 @@
 # [On Universal Black-Box Domain Adaptation]
 
-This repository provides code for the paper ---- On Universal Black-Box Domain Adaptation.
+This repository provides code for the paper ---- [On Universal Black-Box Domain Adaptation](https://arxiv.org/pdf/2104.04665.pdf).
 
 ## Environment
 
@@ -63,11 +63,13 @@ This repository is contributed by [Bin Deng](https://bindeng.xyz/).
 If you consider using this code or its derivatives, please consider citing:
 
 ```
-@misc{bindeng2021UB2DA,
-  title={On Universal Black-Box Domain Adaptation},
-  author={Bin Deng and Yabin Zhang and Hui Tang and Changxing Ding and Kui Jia},
-  eprint = {arvix},
-  year={2021}
+@misc{deng2021universal,
+      title={On Universal Black-Box Domain Adaptation}, 
+      author={Bin Deng and Yabin Zhang and Hui Tang and Changxing Ding and Kui Jia},
+      year={2021},
+      eprint={2104.04665},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
 }
 ```
 
