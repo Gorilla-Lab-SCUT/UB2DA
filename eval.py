@@ -46,11 +46,13 @@ def test(step, dataset_test, filename, unk_class, G, C1, threshold):
     if len(unk_idx[0]) != 0:
         correct_unk = np.where(y_pred[unk_idx[0]] == unk_class)
         acc_unk = len(correct_unk[0]) / len(unk_idx[0])
-
+        # v1 share in overall
         shared_idx = np.where(y_true != unk_class)
         shared_gt = y_true[shared_idx[0]]
         pre_shared = y_pred[shared_idx[0]]
         acc_shared = np.mean(shared_gt == pre_shared)
+        # v2 share in average
+        acc_shared = recall_avg_auc[:-1].mean()
 
         h_score = 2 * acc_unk * acc_shared / (acc_unk + acc_shared)
 
